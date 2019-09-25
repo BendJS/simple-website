@@ -7,6 +7,7 @@ export default function SignupForm({children}) {
   function handleClick(e) {
     e.preventDefault();
     setSubmitted(true);
+    // onClick={e => handleClick(e)}
   }
 
   if (submitted) {
@@ -18,9 +19,10 @@ export default function SignupForm({children}) {
   }
   return (
     <form name="newsletter" netlify className="members">
+      <input type="hidden" name="form-name" value="newsletter" />
       <input type="text" name="name" className="signup" placeholder="YOUR NAME" />
       <input type="email" name="email" className="signup" placeholder="YOUR EMAIL" />
-      <button className="button" type="submit" onClick={e => handleClick(e)}>Sign up</button>
+      <button className="button" type="submit">Sign up</button>
     </form>
   )
 }
