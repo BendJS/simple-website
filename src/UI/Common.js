@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const StyledModule = styled.div`
   background: white;
@@ -55,14 +56,21 @@ const FlexDiv = styled.div`
   justify-content: ${({justify}) => justify || 'center'};
 `;
 
-const StyledAvatar = styled.img`
-  width: 50px;
-  height: 50px;
-  border: 1px solid black;
+const StyledAvatar = styled(Link)`
+  height: auto;
+  width: auto;
   border-radius: 100%;
+  cursor: pointer;
 
   &:not(:first-child) {
     margin-left: -15px;
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
   }
 `;
 

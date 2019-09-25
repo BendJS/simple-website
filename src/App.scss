@@ -12,6 +12,12 @@ html {
   // padding-bottom: 5rem;
 }
 
+.app {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
 main {
   max-width: 700px;
   margin: 0 auto;
@@ -39,6 +45,8 @@ p {
   color: black;
   font-weight: bold;
   box-shadow: 1px 1px 0 rgba(black, 0.2);
+  cursor: pointer;
+
   &:hover,
   &:focus,
   &:active,
