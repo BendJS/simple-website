@@ -48,18 +48,6 @@ p {
   }
 }
 
-.signup {
-  width: auto;
-  border: none;
-  border-bottom: 2px solid grey;
-  margin-right: 2rem;
-  font-size: 1.5rem;
-  padding: 3px 10px;
-  &:focus {
-    outline: none;
-  }
-}
-
 .members {
   display: flex;
   width: 100%;
