@@ -18,7 +18,7 @@ export default function SignupForm({children}) {
     )
   }
   return (
-    <form name="newsletter" netlify className="members">
+    <form name="newsletter" netlify className="members" method="post">
       <input type="hidden" name="form-name" value="newsletter" />
       <input type="text" name="name" className="signup" placeholder="YOUR NAME" />
       <input type="email" name="email" className="signup" placeholder="YOUR EMAIL" />
