@@ -68,12 +68,12 @@ export default function Home() {
           heading="Chat"
           subheading="Join our community"
           text="Our Slack group helps us all stay in touch, and our meetup page gives you more info about our events"
-          buttons={[<a href="https://join.slack.com/t/bendjs/shared_invite/enQtNjA1MTIyODI0MjYwLWNmODA5OTM3ODJiYTllYWJlNzE0MGUwM2JkOGEyZTllOGNhNmU3YzdkNDE2ZTM1M2M0NDhmYTNkZGE3ZTA5M2Y" target="_blank" rel="noopener noreferrer" className="button" style={{marginBottom: '3px'}}>Get Slack Invite</a>, <a href="https://www.meetup.com/BendJS/" className="button">Join BendJS</a>]}
+          buttons={[<a href="https://join.slack.com/t/bendjs/shared_invite/enQtNjA1MTIyODI0MjYwLWNmODA5OTM3ODJiYTllYWJlNzE0MGUwM2JkOGEyZTllOGNhNmU3YzdkNDE2ZTM1M2M0NDhmYTNkZGE3ZTA5M2Y" target="_blank" rel="noopener noreferrer" className="button" style={{marginBottom: '3px'}}>Get Slack Invite</a>, <a href="https://www.meetup.com/BendJS/" className="button">Join BendJS @ Meetup</a>]}
         />
 
         <Module
           heading="Classifieds"
-          subheading="Get / Post a job"
+          subheading="Get || Post a job"
           text="Looking for a new opportunity or looking for some talent for your company? Let us know and we'll post it here for you!"
           buttons={[<a href="" className="button" style={{marginBottom: '3px'}}>Job Listings</a>, <a href="mailto:bendjsgroup@gmail.com" className="button">Post a job</a>]}
         />
