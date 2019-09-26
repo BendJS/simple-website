@@ -5,12 +5,12 @@ function Meetups(props) {
   const [meetups, setMeetups] = useState([]);
 
   useEffect(() => {
-    axios.get('https://api.meetup.com/BendJS/events?&sign=true&photo-host=public&page=20&key=574b6c10521e4d3e036513581e587', {
-      headers: {
-        "Authorization": `Bearer 574b6c10521e4d3e036513581e587`,
-        "Origin": "https://bendjs.com"
-      }
-    })
+    axios.get('https://api.meetup.com/BendJS/events?&sign=true&photo-host=public&page=20')
+      // headers: {
+      //   "Authorization": `Bearer 574b6c10521e4d3e036513581e587`,
+      //   "Origin": "https://bendjs.com"
+      // }
+    // })
       .then(res => console.log('😬', res))
       .catch(err => console.log('👺', err))
   }, [])

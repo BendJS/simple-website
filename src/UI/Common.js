@@ -54,6 +54,8 @@ const FlexDiv = styled.div`
   flex-direction: ${({direction}) => direction || 'row'};
   align-items: ${({align}) => align || 'center'};
   justify-content: ${({justify}) => justify || 'center'};
+  width: ${({width}) => width || '100%'};
+  height: ${({height}) => height ? height : '100%'};
 `;
 
 const StyledAvatar = styled(Link)`

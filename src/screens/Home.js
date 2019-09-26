@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import Meetups from './Meetups';
+import Meetups from '../components/Meetups';
 import Module from '../components/Module';
 import SignupForm from '../components/SignupForm';
 import Header from '../components/Header';
@@ -50,6 +50,7 @@ export default function Home() {
 
   return (
     <>
+        {/* <Meetups /> */}
         <Module
           heading="Say Something"
           subheading="We're always looking for speakers"

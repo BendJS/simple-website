@@ -1,0 +1,41 @@
+{
+  "id": 1,
+  "User": {
+    "Image": "https://bendjs-member-pictures.s3-us-west-2.amazonaws.com/kyle.jpeg",
+    "Name": "Kyle McLeod",
+    "Company(ies)": "RepairQ, 37teams, TribePilot, Cloud99 Designs & Consulting",
+    "Github": "https://github.com/kcloud99",
+    "Website": "https://kcloud99.github.io/",
+    "Other (Medium, Twitter, ect...)": "https://medium.com/@kylemcleod1, https://www.facebook.com/kcloud99, https://twitter.com/KyleMcLeod1"
+  },
+  "Jobs": [
+    {
+      "Title": "Web Applications Developer II",
+      "Description": "Working on React based portals for RepairQ main platform to support all customers external needs."
+    },
+    {
+      "Title": "Director of Community Development",
+      "Description": "Engaging our clients and the community at large to bring our products and services to those who need them."
+    },
+    {
+      "Title": "Virality & Marketing Engineer",
+      "Description": "Working between the marketing and engineering teams to create virality inducing features to the ReactNative application."
+    }
+  ],
+  "Company Info": {
+    "show": true,
+    "Logo": "",
+    "Name": "37teams",
+    "Description": "Consulting. Development. Building products we wish existed. At 37teams we not only produce our own products that we want to see in this world, but also help our clients bring their visions of better software into reality.",
+    "Hiring?": true,
+    "Website / Careers page": "37teams.com"
+  },
+  "Presentations": [
+    {
+      "Title": "GraphQL - Single endpoint, limitless possibilities",
+      "Description": "GraphQL opens up all kinds of potential for building servers and front end queries, regardless of your framework or language of choice. Whether you're spinning up your next big app, or trying to pull together a mess of legacy code, GraphQL is there to help streamline your data collection and presentation needs. This talk will mostly focus on setting up a Express-GraphQL server, building our schemas, connecting our resolvers (how we actually get our data) then using a framework called Apollo on the front end with React to showcase some of the fun options you have for your next project. We'll also do a bit of show and tell on setting up GraphQL with a serverless architecture, and show how you can adapt this protocol to the language of your choice.",
+      "Link": "",
+      "Thumbnail": ""
+    }
+  ]
+}
