@@ -1,20 +1,19 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import styled from "styled-components";
 
 const StyledModule = styled.div`
   background: white;
   padding: 2rem;
   border-radius: 5px;
-  box-shadow: 4px 4px 10px rgba(black, 0.3);
-  grid-column: ${({large}) => large ? '1 / span 2' : ''};
-
-  h2 {
-    font-size: ${({large}) => large ? '2rem' : 'inherit'};
-  }
-
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
   h3 {
     color: red;
     text-transform: uppercase;
+  }
+  .button {
+    margin-top: auto;
   }
 `;
 
@@ -51,29 +50,11 @@ const StyledFooter = styled.div`
 
 const FlexDiv = styled.div`
   display: flex;
-  flex-direction: ${({direction}) => direction || 'row'};
-  align-items: ${({align}) => align || 'center'};
-  justify-content: ${({justify}) => justify || 'center'};
-  width: ${({width}) => width || '100%'};
-  height: ${({height}) => height ? height : '100%'};
+  flex-direction: ${({ direction }) => direction || "row"};
+  align-items: ${({ align }) => align || "center"};
+  justify-content: ${({ justify }) => justify || "center"};
+  width: ${({ width }) => width || "100%"};
+  height: ${({ height }) => (height ? height : "100%")};
 `;
 
-const StyledAvatar = styled(Link)`
-  height: auto;
-  width: auto;
-  border-radius: 100%;
-  cursor: pointer;
-
-  &:not(:first-child) {
-    margin-left: -15px;
-  }
-
-  img {
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    cursor: pointer;
-  }
-`;
-
-export { StyledModule, StyledHeader, StyledFooter, FlexDiv, StyledAvatar };
+export { StyledModule, StyledHeader, StyledFooter, FlexDiv };
