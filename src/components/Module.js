@@ -11,8 +11,8 @@ export default function Module({
 }) {
   return (
     <StyledModule>
-      <h3>{heading}</h3>
-      <h2>{subheading}</h2>
+      <h2 className="heading">{heading}</h2>
+      <p className="subheading">{subheading}</p>
       <p>{text}</p>
       {buttons.map(b => b)}
       {children}

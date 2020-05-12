@@ -8,16 +8,22 @@ const StyledModule = styled.div`
   min-height: 250px;
   display: flex;
   flex-direction: column;
-  h3 {
+  .heading {
+    font-size: 1.17em;
     color: red;
     text-transform: uppercase;
+  }
+  .subheading {
+    margin-bottom: 1rem;
+    font-size: 1.5em;
+    font-weight: bold;
   }
   .button {
     margin-top: auto;
   }
 `;
 
-const StyledHeader = styled.div`
+const StyledHeader = styled.header`
   border-bottom: 10px solid black;
   border-right: 10px solid black;
   padding: 3rem 1.2rem 1rem 0;
@@ -35,7 +41,7 @@ const StyledHeader = styled.div`
   }
 `;
 
-const StyledFooter = styled.div`
+const StyledFooter = styled.footer`
   border-top: 10px solid black;
   border-left: 10px solid black;
   padding: 1rem 0 3rem 1rem;
@@ -58,3 +64,4 @@ const FlexDiv = styled.div`
 `;
 
 export { StyledModule, StyledHeader, StyledFooter, FlexDiv };
+
